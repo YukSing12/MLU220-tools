@@ -1,3 +1,6 @@
 [submodule "util-linux"]
 	path = util-linux
 	url = https://github.com/karelzak/util-linux
+[submodule "MegPeak"]
+	path = MegPeak
+	url = https://github.com/MegEngine/MegPeak.git
