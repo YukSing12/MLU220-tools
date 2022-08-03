@@ -4,3 +4,6 @@
 [submodule "MegPeak"]
 	path = MegPeak
 	url = https://github.com/MegEngine/MegPeak.git
+[submodule "libgomp"]
+	path = libgomp
+	url = https://gitee.com/leone9689/libgomp.git

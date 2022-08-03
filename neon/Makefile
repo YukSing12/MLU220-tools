@@ -1,4 +1,5 @@
 CC		= gcc
+CXX		= g++
 SRC_CC          = $(shell find ./ -name '*.c')
 
 .PHONY : all
@@ -12,6 +13,8 @@ matrix : matrix.c
 	$(CC) -g -o3 matrix.c -o exe_matrix_o3
 	objdump -d exe_matrix_o3 > disasm_matrix_o3
 
+openmp : openmp.cpp
+	$(CXX) -g -o3 openmp.cpp -o exe_openmp_o3 -fopenmp
 .PHONY: clean
 clean :
 	rm exe* disasm*
